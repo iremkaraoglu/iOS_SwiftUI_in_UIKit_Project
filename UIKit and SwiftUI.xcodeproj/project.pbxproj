@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30AA390028116B6400805EC4 /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AA38FF28116B6400805EC4 /* SwiftUIViewController.swift */; };
 		30CBBAB2280ED26D00063122 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBBAB1280ED26D00063122 /* SwiftUIView.swift */; };
 		30D0B2B42806A3F3005FD856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B2B32806A3F3005FD856 /* AppDelegate.swift */; };
 		30D0B2B82806A3F3005FD856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D0B2B72806A3F3005FD856 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30AA38FF28116B6400805EC4 /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
 		30CBBAB1280ED26D00063122 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		30D0B2B02806A3F3005FD856 /* UIKit and SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit and SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D0B2B32806A3F3005FD856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				30D0B2BC2806A3F4005FD856 /* Assets.xcassets */,
 				30D0B2BE2806A3F4005FD856 /* LaunchScreen.storyboard */,
 				30D0B2C12806A3F4005FD856 /* Info.plist */,
+				30AA38FF28116B6400805EC4 /* SwiftUIViewController.swift */,
 			);
 			path = "UIKit and SwiftUI";
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AA390028116B6400805EC4 /* SwiftUIViewController.swift in Sources */,
 				30D0B2B82806A3F3005FD856 /* ViewController.swift in Sources */,
 				30D0B2B42806A3F3005FD856 /* AppDelegate.swift in Sources */,
 				30CBBAB2280ED26D00063122 /* SwiftUIView.swift in Sources */,
