@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         button.setTitle("Navigate to SwiftUI Screen", for: .normal)
         button.titleLabel?.textAlignment = .center
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(openSwiftUIScreen), for: .touchUpInside)
         
         let container = UIView()
         container.addSubview(label)
@@ -41,5 +42,10 @@ class ViewController: UIViewController {
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             button.topAnchor.constraint(equalTo: label.bottomAnchor, constant: 64)])
     }
+    
+    @objc func openSwiftUIScreen() {
+           let next = SwiftUIViewController()
+           self.navigationController?.pushViewController(next, animated: true)
+       }
 }
 
