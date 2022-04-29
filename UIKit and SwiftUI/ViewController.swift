@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
     
@@ -44,8 +45,10 @@ class ViewController: UIViewController {
     }
     
     @objc func openSwiftUIScreen() {
-           let next = SwiftUIViewController()
-           self.navigationController?.pushViewController(next, animated: true)
-       }
+        let swiftUIViewController = UIHostingController(rootView: SwiftUIView(navigationController: self.navigationController))
+        self.navigationController?.pushViewController(swiftUIViewController, animated: true)
+    }
 }
+
+
 

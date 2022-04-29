@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SwiftUIView: View {
     weak var navigationController: UINavigationController?
+    
     var body: some View {
            VStack {
                Text("SwiftUI Screen")
@@ -18,6 +19,7 @@ struct SwiftUIView: View {
                    Text("Navigate to UIKit Screen")
                }.padding(48)
            }.navigationBarHidden(true)
+        
        }
 }
 
